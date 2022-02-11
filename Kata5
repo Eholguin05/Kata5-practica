@@ -1,0 +1,51 @@
+first_planet = input('Introduzca la distancia del sol para el primer planeta en KM')
+second_planet = input('Introduzca la distancia desde el sol para el segundo planeta en KM')
+third_planet = input('Introduzca la distancia desde el sol para el tercero planeta en KM')
+fourth_planet = input('Introduzca la distancia desde el sol para el cuarto planeta en KM')
+fifth_planet = input('Introduzca la distancia desde el sol para el quinto planeta en KM')
+sixth_planet = input('Introduzca la distancia desde el sol para el sexto planeta en KM')
+seventh_planet = input('Introduzca la distancia desde el sol para el septimo planeta en KM')
+eighth_planet = input('Introduzca la distancia desde el sol para el octavo planeta en KM')
+
+first_planet = int(first_planet)
+second_planet = int(second_planet)
+third_planet = int(third_planet)
+fourth_planet = int(fourth_planet)
+fifth_planet = int(fifth_planet)
+sixth_planet = int(sixth_planet)
+seventh_planet = int(seventh_planet)
+eighth_planet =int(eighth_planet)
+
+distance_km1 = second_planet - first_planet
+distance_km2 = third_planet - second_planet
+distance_km3 = fourth_planet - third_planet
+distance_km4 = fifth_planet - fourth_planet
+distance_km5 = sixth_planet - fifth_planet
+distance_km6 = seventh_planet - sixth_planet
+distance_km7 = eighth_planet - seventh_planet
+
+print(distance_km1)
+print(distance_km2)
+print(distance_km3)
+print(distance_km4)
+print(distance_km5)
+print(distance_km6)
+print(distance_km7)
+
+
+distance_mi1 = distance_km1 * 0.621
+distance_mi2 = distance_km2 * 0.621
+distance_mi3= distance_km3 * 0.621
+distance_mi4 = distance_km4 * 0.621
+distance_mi5 = distance_km5 * 0.621
+distance_mi6 = distance_km6 * 0.621
+distance_mi7 = distance_km7 * 0.621
+
+
+print(abs(distance_mi1))
+print(abs(distance_mi2))
+print(abs(distance_mi3))
+print(abs(distance_mi4))
+print(abs(distance_mi5))
+print(abs(distance_mi6))
+print(abs(distance_mi7))
